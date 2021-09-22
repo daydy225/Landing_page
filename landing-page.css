@@ -10,6 +10,7 @@ body {
   background-color: #fff;
   font-family: "Lato", sans-serif;
   background-color: #fafafa;
+  overflow-x: hidden;
 }
 
 li {
@@ -177,7 +178,7 @@ nav > ul {
 }
 
 .section__features--block + .section__features--block {
-  margin-left: 2em;
+  margin-right: 2.5em;
 }
 .features__item--titre {
   font-size: 1.2rem;
@@ -239,9 +240,7 @@ nav > ul {
   width: calc(100% / 3);
   margin-left: 2em;
 }
-.section__products--block + .section__products--block {
-  /* margin-right: 4em; */
-}
+
 @media (max-width: 800px) {
   .products {
     flex-direction: column;
