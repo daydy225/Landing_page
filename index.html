@@ -4,27 +4,120 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="landing_page.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="landing-page.css" />
     <title>Landing Page</title>
   </head>
   <body>
+    <!-- All-page -->
     <div class="all-page">
+
       <header id="header">
+        <!-- Navigation menu -->
         <div class="logo">
-          <img
-            src="https://www.logo.wine/a/logo/Rakuten/Rakuten-Logo.wine.svg"
-            alt="Rakuten logo"
-            id="header"
-          />
+          <img src="https://www.logo.wine/a/logo/Rakuten/Rakuten-Logo.wine.svg" alt="Rakuten Logo" id="header-img">
         </div>
         <nav id="nav-bar">
           <ul>
-            <li class="nav-link"><a href="#features">features</a></li>
-            <li class="nav-link"><a href="#promo_video">how it works</a></li>
+            <li class="nav-link"><a href="#features">how it works</a></li>
+            <li class="nav-link"><a href="#promo_video">promotion video</a></li>
             <li class="nav-link"><a href="#products">products</a></li>
           </ul>
         </nav>
       </header>
+      <!-- Form -->
+      <section class="section__form"">
+        <h2 class="section__form--titre">Stores pay us. We pay you.</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            class="section__form--email"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn section__form--submit" />
+        </form>
+        <!-- section features -->
+      </section>
+      <section class="section__features" id="features">
+        <h2 class="section__features--titre">How it Works</h2>
+        <!-- features items -->
+        <div class="section__feature--item">
+
+          <!-- features block -->
+          <div class="section__features--block">
+             <h4 class="features__item--titre">get started</h4>
+             <p class="features__item--text">Synergistically foster leading-edge process improvements through prospective communities. Seamlessly extend magnetic best practices without innovative.</p>
+             <span class="features__item--icon"><i class="fas fa-desktop"></i></span>
+          </div>
+          <!-- features block -->
+          <div class="section__features--block">
+             <h4 class="features__item--titre">shop as usual</h4>
+             <p class="features__item--text">Synergistically foster leading-edge process improvements through prospective communities. Seamlessly extend magnetic best practices without innovative.</p>
+             <span class="features__item--icon"><i class="fas fa-shopping-cart"></i></span>
+          </div>
+          <!-- features block -->
+          <div class="section__features--block">
+             <h4 class="features__item--titre">earn cash back</h4>
+             <p class="features__item--text">Synergistically foster leading-edge process improvements through prospective communities. Seamlessly extend magnetic best practices without innovative.</p>
+             <span class="features__item--icon"><i class="fas fa-money-bill-wave-alt"></i></span>
+          </div>
+        </div>
+      </section>
+        <!-- Promo Video -->
+        <section class="section_promo-video" id="promo_video">
+          <iframe width="853" id="video" height="480" src="https://www.youtube.com/embed/4DRqlfO2n-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section class="products" id="products">
+           <!-- products block -->
+           <div class="section__products--block">
+              <h4 class="section__product--titre">earn cash back</h4>
+             <p class="section__product--price">$600</p>
+             <li>Lorem ipsum.</li>
+             <li>Lorem ipsum.</li>
+             <li>Lorem ipsum dolor.</li>
+             <li>Lorem ipsum.</li>
+             </ol>
+              <button class="btn products-btn">Select</button>
+            </div>
+
+           <!-- products block -->
+           <div class="section__products--block">
+              <h4 class="section__product--titre">earn cash back</h4>
+             <p class="section__product--price">$600</p>
+             <li>Lorem ipsum.</li>
+             <li>Lorem ipsum.</li>
+             <li>Lorem ipsum dolor.</li>
+             <li>Lorem ipsum.</li>
+             </ol>
+              <button class="btn products-btn">Select</button>
+            </div>
+
+           <!-- products block -->
+           <div class="section__products--block">
+              <h4 class="section__product--titre">earn cash back</h4>
+             <p class="section__product--price">$600</p>
+             <li>Lorem ipsum.</li>
+             <li>Lorem ipsum.</li>
+             <li>Lorem ipsum dolor.</li>
+             <li>Lorem ipsum.</li>
+             </ol>
+              <button class="btn products-btn">Select</button>
+            </div>
+        </section>
+        <footer>
+          <ul class="footer__list">
+            <li class="footer__list--one"><a href="#">Privacy</a></li>
+            <li class="footer__list--one"><a href="#">Terms</a></li>
+            <li class="footer__list--one"><a href="#">Contact</a></li>
+          </ul>
+          <span class="footer__list--copyright">Copyright 2021, dev.daydy</span>
+        </footer>
+      </div>
+    </div>
+    
     </div>
   </body>
 </html>
